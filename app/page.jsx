@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <>
-      <h1 className="text-2xl font-bold mb-4">Gongjaes Home</h1>
+      <h1 className="text-2xl font-bold mb-4">Home</h1>
 
       <div className="bg-gray-100 p-4 m-4 rounded-lg mb-4">
         <Link
@@ -41,7 +41,7 @@ export default function Home() {
       </div>
       <div className="mb-4 bg-gray-100 p-4 m-4 rounded-lg">
         <Link
-          href="https://github.com/gongjae/clerk2"
+          href="https://github.com/yeo99/2023-2-weblecture-next"
           className="text-xl text-blue-700 font-bold"
         >
           Github repository
